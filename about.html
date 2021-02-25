@@ -1,0 +1,116 @@
+<head>
+    <link rel="icon" href="assets/favicon.png">
+    <title>Cassidy Jeanne Osgood</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+</head>
+<body class='bg-white text-dark'>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house-door"></i> Cassidy J. Osgood
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+            <i class="navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-options">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person-square"></i> About Me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-square"></i> Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-text"></i> Blog
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-mailbox"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 'About' Heading -->
+    <div class='container'>
+        <h1 class='text-dark text-uppercase display-5 mt-4'>
+            <i class="bi bi-person-square"></i> About Me
+        </h1>
+        <hr>
+    </div>
+
+    <!-- About Me: using Grid & Flex -->
+    <div class='container-fluid text-dark row'>
+
+        <!-- Column 1: Social links and Education -->
+        <div class="text-center text-dark col-md-2">
+            <h4 class="lead fw-bold"> Cassidy J. Osgood </h4>
+            <img class='img-thumbnail border border-dark rounded -50' src="assets/profile-image.jpg">
+            <div class="justify-content-center gap-1 m-3">
+                <button class="btn btn-outline-dark" type="button" onclick="window.location='https://discord.com/channels/@me'">
+                    <i class="bi bi-discord"></i> Discord
+                </button>
+                <button class="btn btn-outline-dark" type="button" onclick="window.location='https://github.com/cjosgood'">
+                    <i class="bi bi-github"></i> Github
+                </button>
+                <button class="btn btn-outline-dark" type="button" onclick="window.location='https://www.linkedin.com/in/cassidyosgood/'">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </button>
+                <button class="btn btn-outline-dark" type="button" onclick="window.location='https://uno.zoom.us/my/cjosgood'">
+                    <i class="bi bi-camera-video-fill"></i> Zoom
+                </button>
+            </div>
+            <hr>
+            <div class="d-flex row row-cols-1 fw-bold">
+                <span> Education: </span>
+                <small> Computer Science, B.S. </small>
+                <small> Expected May 2021 </small>
+                <small> University of New Orleans </small>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Column 2: Name & Skills -->
+        <div class='bg-white col-md-10'>
+            <!-- Row 1: Name & Image -->
+            <div class="row">
+                <div class='text-dark col-md-8 col-10'>
+                    <h1> Cassidy Jeanne Osgood </h1>
+                    <p> My current interests in Computer Science includes game development/design and UX/UI design. </p>
+                </div>
+                <div class='col-md-4 d-md-block d-none'>
+                    <img class='img-fluid border border-dark rounded' src='assets/profile-image.jpg' >
+                </div>
+            </div>
+            <!-- Row 2: Skills -->
+            <hr>
+            <h2 class='text-dark display-8 fw-bold'> Skills: </h2>
+            <div class="bg-dark d-flex row row-cols-4">
+                <img src="assets/icon-java.png" style="padding-top: 40px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px;">
+                <img src="assets/icon-html5.png" style="padding-top: 40px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px;">
+                <img src="assets/icon-css3.png" style="padding-top: 40px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px;">
+                <img src="assets/icon-js.png" style="padding-top: 40px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px;">
+                <img src="assets/icon-sql.jpg" style="padding-top: 40px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px;">
+                <img src="assets/icon-microsoft-office.png" style="padding-top: 40px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bunde with Popper -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>

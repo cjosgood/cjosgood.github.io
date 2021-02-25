@@ -1,0 +1,142 @@
+<head>
+    <link rel="icon" href="assets/favicon.png">
+    <title>Cassidy Jeanne Osgood</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+</head>
+<body class="bg-info text-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house-door"></i> Cassidy J. Osgood
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+            <i class="navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-options">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person-square"></i> About Me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-square"></i> Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-text"></i> Blog
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-mailbox"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Blog Page -->
+    <div class="container mt-4">
+        <h1 class="display-5 text-uppercase">
+            <i class="bi bi-chat-text"></i> Blog
+        </h1>
+        <hr>
+    </div>
+
+    <!-- Carousel -->
+    <header>
+    <div id="blog-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000">
+        <!-- Carousel Menu -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <!-- Carousel body -->
+        <div class="carousel-inner text-center">
+            <!-- Slide 1 -->
+            <div id="slide-1" class="carousel-item active">
+                <img class="img-fluid" src="assets/blog1.jpg">
+                <div class="carousel-caption">
+                    <h5 class="fw-bold"> Empty </h5>
+                    <p class="fw-bold"> Blank </p>
+                    <button class="btn btn-outline-light" type="button" onclick="window.location='">
+                        <i class="bi bi-book"></i> Read More
+                    </button>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div id="slide-2" class="carousel-item">
+                <img class="img-fluid" src="assets/blog2.jpg">
+                <div class="carousel-caption">
+                    <h5 class="text-dark fw-bold"> Women in Tech </h5>
+                    <p class="text-dark fw-bold"> The history of women in coding.  </p>
+                    <button class="btn btn-dark" type="button" onclick="window.location='https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html'">
+                        <i class="bi bi-book"></i> Read More
+                    </button>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div id="slide-3" class="carousel-item">
+                <img class="img-fluid" src="assets/blog3.jpg">
+                <div class="carousel-caption">
+                    <h5 class="text-dark fw-bold"> Blog Post 3 </h5>
+                    <p class="text-dark fw-bold"> Sentence describing topic for Blog Article 3 </p>
+                    <button class="btn btn-dark" type="button" onclick="window.location=''">
+                        <i class="bi bi-book"></i> Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#blog-carousel" role="button" data-bs-slide="prev">
+            <i class="carousel-control-prev-icon"></i>
+        </a>
+        <a class="carousel-control-next" href="#blog-carousel" role="button" data-bs-slide="next">
+            <i class="carousel-control-next-icon"></i>
+        </a>
+    </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <h1 class="fw-bold"> Helpful Resources </h1>
+            <p class="lead"> Below are some resources that have been helpful for me throughout my college and programming career.
+                <div>
+                    <ul>
+                        <li>
+                            <a class="text-dark" href="https://www.w3schools.com/">W3Schools</a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="https://www.geeksforgeeks.org/">Geeks4Geeks</a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="https://www.stackoverflow.com/">Stack Overflow</a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="https://www.hackerrank.com/">HackerRank</a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="https://www.codecademy.com/">Codecademy</a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="https://www.khanacademy.org/">Khan Academy</a>
+                        </li>
+                    </ul>
+                </div>
+            </p>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bunde with Popper -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
