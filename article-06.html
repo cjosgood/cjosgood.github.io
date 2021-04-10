@@ -1,0 +1,94 @@
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico?">
+    <title>Cassidy Jeanne Osgood</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+</head>
+<body class="bg-light text-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house-door"></i> Cassidy J. Osgood
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+            <i class="navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-options">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person-square"></i> About Me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-square"></i> Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-text"></i> Blog
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-mailbox"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Page 5-->
+    <div class="container mt-4">
+        <h1 class="display-5 text-uppercase">
+            <i class="bi bi-chat-text"></i> Full Stack Application Specifications
+        </h1>
+        <hr>
+    </div>
+
+    <section class="py-2">
+        <div class="container">
+            <p class="lead"> April 9, 2021 </p>
+            <h1 class="fw-bold"> Update for Phase 2 </h1>
+            <p class="text-dark"> For Phase 2 of the full stack chat application, my team members and I are explaining some of the app's features and determining
+                whether the feature is a front-end, back-end, or database responsibility. Below are some features my team members and I came up with.
+            </p>
+            <p class="text-dark fw-bold">
+                User Stories: 
+            </p>
+            <p class="text-dark">
+                A regular user will be able to log in to the app (or register if they do not have an account), see a list of their chats, and talk to other users. 
+                An administrator has the abilities of a regular user, plus the ability to view data of the app, such as how many users are signed up, how many are active, etc.
+            </p>
+            <p class="text-dark fw-bold">  
+                Frontend Features: 
+            </p>
+            <p class="text-dark">
+                The user will encounter a login screen to login with their username and password in order to access their chats. If they are new to the app, they will have to register to create an account. Once logging in, the user will see a display of their chats with different users on the left side of their window in a panel. When a user clicks on another user, their messages will appear. If they have never contacted the other user before, their message screen will be blank. They will also be able to see which users are online and offline, available or unavailable. 
+            </p> 
+            <p class="text-dark fw-bold">   
+                Backend Features: 
+            </p>
+            <p class="text-dark">
+                The server will have to authenticate the user or register the user. The server will send and receive (display) messages from one user to another in order to make the communication actually happen. 
+            </p> 
+            <p class="text-dark fw-bold">  
+                All Database Features: 
+            </p>
+            <p class="text-dark">
+                The database will have to store the user’s information, username and password, so the user can login and not have to re-register every time. The database will also have to store user-to-user messages in order to have a conversation history.
+            </p>
+        </div>
+    </section>
+
+
+   <!-- Bootstrap Bundle with Popper -->
+   <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>  
