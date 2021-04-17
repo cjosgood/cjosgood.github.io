@@ -1,0 +1,111 @@
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico?">
+    <title>Cassidy Jeanne Osgood</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+</head>
+<body class="bg-light text-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house-door"></i> Cassidy J. Osgood
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+            <i class="navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-options">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person-square"></i> About Me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-square"></i> Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-text"></i> Blog
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-mailbox"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Page 5-->
+    <div class="container mt-4">
+        <h1 class="display-5 text-uppercase">
+            <i class="bi bi-chat-text"></i> Full Stack Application: Client Design
+        </h1>
+        <hr>
+    </div>
+
+    <section class="py-2">
+        <div class="container">
+            <p class="lead"> April 16, 2021 </p>
+            <h1 class="fw-bold"> Update for Phase 3 </h1>
+            <p class="text-dark"> For Phase 3 of the full stack chat application, my team members and I are explaining what the client side design is going to be like and the 
+                different views that the user will have. Below are some visions we have come up with.
+            </p>
+            <p class="text-dark fw-bold">
+                Client Logic: 
+            </p>
+            <p class="text-dark">
+                JavaScript’s logic and data processing responsibilities will include the following features:
+                <ul>
+                    <li>User authentication: JS will allow the user to log in with a username and password as well as have an email connected to the account. Similar to Lab 12, will will use Passport, EJS, Bcrypt in order to accomplish user authentication.</li>
+                    <li>Messaging: JS will process the data from users participating in conversations.</li>
+                </ul>
+            </p>
+            <p class="text-dark fw-bold">  
+                Server Fetches: 
+            </p>
+            <p class="text-dark">
+                All expected server requests will include the following:
+                <ul>
+                    <li>Register: POST user information into database to be fetched at sign-in</li>
+                    <li>Log-in: Use client’s input to GET account from database, if credentials are correct.</li>
+                    <li>Friend requests: POST a friend request that is sent to the target account. They can accept or deny the request.</li>
+                    <li>Chat: POST and GET messages, dependent on if the client sent a message or received a message from another user. </li>
+                </ul>
+            </p> 
+            <p class="text-dark fw-bold">   
+                Tooling and Libraries: 
+            </p>
+            <p class="text-dark">
+                <ul>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>JSON</li>
+                    <li>HTML</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                    <li>Bcrypt</li>
+                    <li>EJS</li>
+                    <li>Passport</li>
+                </ul>
+            </p> 
+            <p class="text-dark fw-bold">  
+                Mockups of the Views: 
+            </p>
+            <img src='./assets/mockups.png' class='img-fluid' style='padding-top: 40px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px;''>
+        </div>
+    </section>
+
+
+   <!-- Bootstrap Bundle with Popper -->
+   <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
